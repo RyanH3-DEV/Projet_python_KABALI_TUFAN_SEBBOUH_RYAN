@@ -1,0 +1,29 @@
+# Format : colonne | libellé | valeur:modalité ; ... (ou « numérique »)
+# Traduit de imports-85.names ; une ligne par colonne, dans l'ordre du fichier.
+
+symboling | Indice de risque assureur | -3:Très sûr ; -2:Sûr ; -1:Plutôt sûr ; 0:Neutre ; 1:Plutôt risqué ; 2:Risqué ; 3:Très risqué
+normalized-losses | Pertes moyennes normalisées | numérique
+make | Marque | alfa-romero:Alfa Romeo ; audi:Audi ; bmw:BMW ; chevrolet:Chevrolet ; dodge:Dodge ; honda:Honda ; isuzu:Isuzu ; jaguar:Jaguar ; mazda:Mazda ; mercedes-benz:Mercedes-Benz ; mercury:Mercury ; mitsubishi:Mitsubishi ; nissan:Nissan ; peugot:Peugeot ; plymouth:Plymouth ; porsche:Porsche ; renault:Renault ; saab:Saab ; subaru:Subaru ; toyota:Toyota ; volkswagen:Volkswagen ; volvo:Volvo
+fuel-type | Carburant | diesel:Diesel ; gas:Essence
+aspiration | Alimentation | std:Atmosphérique ; turbo:Turbo
+num-of-doors | Nombre de portes | two:2 ; four:4
+body-style | Carrosserie | hardtop:Coupé sans montant ; wagon:Break ; sedan:Berline ; hatchback:Hayon ; convertible:Cabriolet
+drive-wheels | Roues motrices | 4wd:Quatre roues ; fwd:Traction ; rwd:Propulsion
+engine-location | Position du moteur | front:Avant ; rear:Arrière
+wheel-base | Empattement (pouces) | numérique
+length | Longueur (pouces) | numérique
+width | Largeur (pouces) | numérique
+height | Hauteur (pouces) | numérique
+curb-weight | Poids à vide (livres) | numérique
+engine-type | Type de moteur | dohc:Double arbre en tête ; dohcv:Double arbre en tête en V ; l:En L ; ohc:Arbre en tête ; ohcf:Arbre en tête à plat ; ohcv:Arbre en tête en V ; rotor:Rotatif
+num-of-cylinders | Nombre de cylindres | two:2 ; three:3 ; four:4 ; five:5 ; six:6 ; eight:8 ; twelve:12
+engine-size | Cylindrée (pouces cubes) | numérique
+fuel-system | Système d'injection | 1bbl:Carburateur 1 corps ; 2bbl:Carburateur 2 corps ; 4bbl:Carburateur 4 corps ; idi:Injection indirecte ; mfi:Injection multipoint ; mpfi:Injection multipoint programmée ; spdi:Injection directe ; spfi:Injection monopoint
+bore | Alésage (pouces) | numérique
+stroke | Course (pouces) | numérique
+compression-ratio | Taux de compression | numérique
+horsepower | Puissance (ch) | numérique
+peak-rpm | Régime de puissance maximale (tr/min) | numérique
+city-mpg | Consommation en ville (miles par gallon) | numérique
+highway-mpg | Consommation sur route (miles par gallon) | numérique
+price | Prix (dollars) | numérique

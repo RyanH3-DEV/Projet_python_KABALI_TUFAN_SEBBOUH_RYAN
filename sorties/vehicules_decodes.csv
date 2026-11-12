@@ -1,0 +1,206 @@
+﻿Identifiant;Indice de risque assureur;Pertes moyennes normalisées;Marque;Carburant;Alimentation;Nombre de portes;Carrosserie;Roues motrices;Position du moteur;Empattement (cm);Longueur (cm);Largeur (cm);Hauteur (cm);Poids à vide (kg);Type de moteur;Nombre de cylindres;Cylindrée (pouces cubes);Système d'injection;Alésage (cm);Course (cm);Taux de compression;Puissance (ch);Régime de puissance maximale (tr/min);Consommation en ville (l/100 km);Consommation sur route (l/100 km);Prix (dollars)
+V1;3;;Alfa Romeo;Essence;Atmosphérique;2;Cabriolet;Propulsion;Avant;225.04;428.75;162.81;123.95;1155.75;Double arbre en tête;4;130;Injection multipoint programmée;8.81;6.81;9;111;5000;11.20;8.71;13495
+V2;3;;Alfa Romeo;Essence;Atmosphérique;2;Cabriolet;Propulsion;Avant;225.04;428.75;162.81;123.95;1155.75;Double arbre en tête;4;130;Injection multipoint programmée;8.81;6.81;9;111;5000;11.20;8.71;16500
+V3;1;;Alfa Romeo;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;240.03;434.85;166.37;133.10;1280.49;Arbre en tête en V;6;152;Injection multipoint programmée;6.81;8.81;9;154;5000;12.38;9.05;16500
+V4;2;164;Audi;Essence;Atmosphérique;4;Berline;Traction;Avant;253.49;448.56;168.15;137.92;1060.05;Arbre en tête;4;109;Injection multipoint programmée;8.10;8.64;10;102;5500;9.80;7.84;13950
+V5;2;164;Audi;Essence;Atmosphérique;4;Berline;Quatre roues;Avant;252.48;448.56;168.66;137.92;1280.94;Arbre en tête;5;136;Injection multipoint programmée;8.10;8.64;8;115;5500;13.07;10.69;17450
+V6;2;;Audi;Essence;Atmosphérique;2;Berline;Traction;Avant;253.49;450.34;168.40;134.87;1137.16;Arbre en tête;5;136;Injection multipoint programmée;8.10;8.64;8.50;110;5500;12.38;9.41;15250
+V7;1;158;Audi;Essence;Atmosphérique;4;Berline;Traction;Avant;268.73;489.46;181.36;141.48;1290.02;Arbre en tête;5;136;Injection multipoint programmée;8.10;8.64;8.50;110;5500;12.38;9.41;17710
+V8;1;;Audi;Essence;Atmosphérique;4;Break;Traction;Avant;268.73;489.46;181.36;141.48;1339.91;Arbre en tête;5;136;Injection multipoint programmée;8.10;8.64;8.50;110;5500;12.38;9.41;18920
+V9;1;158;Audi;Essence;Turbo;4;Berline;Traction;Avant;268.73;489.46;181.36;141.99;1399.79;Arbre en tête;5;131;Injection multipoint programmée;7.95;8.64;8.30;140;5500;13.84;11.76;23875
+V10;0;;Audi;Essence;Turbo;2;Hayon;Quatre roues;Avant;252.73;452.63;172.47;132.08;1384.82;Arbre en tête;5;131;Injection multipoint programmée;7.95;8.64;7;160;5500;14.70;10.69;
+V11;2;192;BMW;Essence;Atmosphérique;2;Berline;Propulsion;Avant;257.05;449.07;164.59;137.92;1086.35;Arbre en tête;4;108;Injection multipoint programmée;8.89;7.11;8.80;101;5800;10.23;8.11;16430
+V12;0;192;BMW;Essence;Atmosphérique;4;Berline;Propulsion;Avant;257.05;449.07;164.59;137.92;1086.35;Arbre en tête;4;108;Injection multipoint programmée;8.89;7.11;8.80;101;5800;10.23;8.11;16925
+V13;0;188;BMW;Essence;Atmosphérique;2;Berline;Propulsion;Avant;257.05;449.07;164.59;137.92;1229.24;Arbre en tête;6;164;Injection multipoint programmée;8.41;8.10;9;121;4250;11.20;8.40;20970
+V14;0;188;BMW;Essence;Atmosphérique;4;Berline;Propulsion;Avant;257.05;449.07;164.59;137.92;1254.18;Arbre en tête;6;164;Injection multipoint programmée;8.41;8.10;9;121;4250;11.20;8.40;21105
+V15;1;;BMW;Essence;Atmosphérique;4;Berline;Propulsion;Avant;262.89;480.06;169.93;141.48;1385.72;Arbre en tête;6;164;Injection multipoint programmée;8.41;8.10;9;121;4250;11.76;9.41;24565
+V16;0;;BMW;Essence;Atmosphérique;4;Berline;Propulsion;Avant;262.89;480.06;169.93;141.48;1465.10;Arbre en tête;6;209;Injection multipoint programmée;9.19;8.61;8;182;5400;14.70;10.69;30760
+V17;0;;BMW;Essence;Atmosphérique;2;Berline;Propulsion;Avant;262.89;492.25;172.47;136.40;1533.14;Arbre en tête;6;209;Injection multipoint programmée;9.19;8.61;8;182;5400;14.70;10.69;41315
+V18;0;;BMW;Essence;Atmosphérique;4;Berline;Propulsion;Avant;279.40;500.38;180.09;143.00;1589.84;Arbre en tête;6;209;Injection multipoint programmée;9.19;8.61;8;182;5400;15.68;11.76;36880
+V19;2;121;Chevrolet;Essence;Atmosphérique;2;Hayon;Traction;Avant;224.54;358.39;153.16;135.13;674.95;En L;3;61;Carburateur 2 corps;7.39;7.70;9.50;48;5100;5.00;4.44;5151
+V20;1;98;Chevrolet;Essence;Atmosphérique;2;Hayon;Traction;Avant;240.03;395.99;161.54;132.08;850.03;Arbre en tête;4;90;Carburateur 2 corps;7.70;7.90;9.60;70;5400;6.19;5.47;6295
+V21;0;81;Chevrolet;Essence;Atmosphérique;4;Berline;Traction;Avant;240.03;403.35;161.54;132.08;865.91;Arbre en tête;4;90;Carburateur 2 corps;7.70;7.90;9.60;70;5400;6.19;5.47;6575
+V22;1;118;Dodge;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;399.54;162.05;129.03;850.94;Arbre en tête;4;90;Carburateur 2 corps;7.54;8.20;9.41;68;5500;6.36;5.74;5572
+V23;1;118;Dodge;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;399.54;162.05;129.03;850.94;Arbre en tête;4;90;Carburateur 2 corps;7.54;8.20;9.40;68;5500;7.59;6.19;6377
+V24;1;118;Dodge;Essence;Turbo;2;Hayon;Traction;Avant;238.00;399.54;162.05;129.03;965.24;Arbre en tête;4;98;Injection multipoint programmée;7.70;8.61;7.60;102;5500;9.80;7.84;7957
+V25;1;148;Dodge;Essence;Atmosphérique;4;Hayon;Traction;Avant;238.00;399.54;162.05;128.52;892.22;Arbre en tête;4;90;Carburateur 2 corps;7.54;8.20;9.40;68;5500;7.59;6.19;6229
+V26;1;148;Dodge;Essence;Atmosphérique;4;Berline;Traction;Avant;238.00;399.54;162.05;128.52;902.20;Arbre en tête;4;90;Carburateur 2 corps;7.54;8.20;9.40;68;5500;7.59;6.19;6692
+V27;1;148;Dodge;Essence;Atmosphérique;4;Berline;Traction;Avant;238.00;399.54;162.05;128.52;902.20;Arbre en tête;4;90;Carburateur 2 corps;7.54;8.20;9.40;68;5500;7.59;6.19;7609
+V28;1;148;Dodge;Essence;Turbo;;Berline;Traction;Avant;238.00;399.54;162.05;128.52;993.82;Arbre en tête;4;98;Injection multipoint programmée;7.70;8.61;7.60;102;5500;9.80;7.84;8558
+V29;-1;110;Dodge;Essence;Atmosphérique;4;Break;Traction;Avant;262.38;443.48;164.08;151.89;1149.86;Arbre en tête;4;122;Carburateur 2 corps;8.48;8.79;8.50;88;5000;9.80;7.84;8921
+V30;3;145;Dodge;Essence;Turbo;2;Hayon;Traction;Avant;243.59;439.93;168.40;127.51;1275.05;Arbre en tête;4;156;Injection multipoint;9.14;9.91;7;145;5000;12.38;9.80;12964
+V31;2;137;Honda;Essence;Atmosphérique;2;Hayon;Traction;Avant;219.96;367.28;162.31;129.03;777.00;Arbre en tête;4;92;Carburateur 1 corps;7.39;8.66;9.60;58;4800;4.80;4.36;6479
+V32;2;137;Honda;Essence;Atmosphérique;2;Hayon;Traction;Avant;219.96;367.28;162.31;129.03;825.08;Arbre en tête;4;92;Carburateur 1 corps;7.39;8.66;9.20;76;6000;7.59;6.19;6855
+V33;1;101;Honda;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;381;162.56;133.60;833.25;Arbre en tête;4;79;Carburateur 1 corps;7.39;7.80;10.10;60;5500;6.19;5.60;5399
+V34;1;101;Honda;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;381;162.56;133.60;879.97;Arbre en tête;4;92;Carburateur 1 corps;7.39;8.66;9.20;76;6000;7.84;6.92;6529
+V35;1;101;Honda;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;381;162.56;133.60;887.23;Arbre en tête;4;92;Carburateur 1 corps;7.39;8.66;9.20;76;6000;7.84;6.92;7129
+V36;0;110;Honda;Essence;Atmosphérique;4;Berline;Traction;Avant;245.11;415.04;162.56;138.43;911.72;Arbre en tête;4;92;Carburateur 1 corps;7.39;8.66;9.20;76;6000;7.84;6.92;7295
+V37;0;78;Honda;Essence;Atmosphérique;4;Break;Traction;Avant;245.11;399.03;162.31;148.08;918.07;Arbre en tête;4;92;Carburateur 1 corps;7.42;8.66;9.20;76;6000;7.84;6.92;7295
+V38;0;106;Honda;Essence;Atmosphérique;2;Hayon;Traction;Avant;245.11;425.45;165.61;135.38;1014.23;Arbre en tête;4;110;Carburateur 1 corps;8.00;9.09;9;86;5800;8.71;7.13;7895
+V39;0;106;Honda;Essence;Atmosphérique;2;Hayon;Traction;Avant;245.11;425.45;165.61;135.38;1038.27;Arbre en tête;4;110;Carburateur 1 corps;8.00;9.09;9;86;5800;8.71;7.13;9095
+V40;0;85;Honda;Essence;Atmosphérique;4;Berline;Traction;Avant;245.11;445.52;165.61;137.41;1045.08;Arbre en tête;4;110;Carburateur 1 corps;8.00;9.09;9;86;5800;8.71;7.13;8845
+V41;0;85;Honda;Essence;Atmosphérique;4;Berline;Traction;Avant;245.11;445.52;158.75;137.41;1075.92;Arbre en tête;4;110;Carburateur 1 corps;8.00;9.09;9;86;5800;8.71;7.13;10295
+V42;0;85;Honda;Essence;Atmosphérique;4;Berline;Traction;Avant;245.11;445.52;165.61;137.41;1118.11;Arbre en tête;4;110;Injection multipoint programmée;8.00;9.09;9;101;5800;9.80;8.40;12945
+V43;1;107;Honda;Essence;Atmosphérique;2;Berline;Traction;Avant;245.11;429.51;167.64;129.54;1040.09;Arbre en tête;4;110;Carburateur 2 corps;8.00;9.09;9.10;100;5500;9.41;7.59;10345
+V44;0;;Isuzu;Essence;Atmosphérique;4;Berline;Propulsion;Avant;239.52;433.58;156.97;135.89;1060.05;Arbre en tête;4;111;Carburateur 2 corps;8.41;8.20;8.50;78;4800;9.80;8.11;6785
+V45;1;;Isuzu;Essence;Atmosphérique;2;Berline;Traction;Avant;240.03;395.99;161.54;132.08;850.03;Arbre en tête;4;90;Carburateur 2 corps;7.70;7.90;9.60;70;5400;6.19;5.47;
+V46;0;;Isuzu;Essence;Atmosphérique;4;Berline;Traction;Avant;240.03;395.99;161.54;132.08;865.91;Arbre en tête;4;90;Carburateur 2 corps;7.70;7.90;9.60;70;5400;6.19;5.47;
+V47;2;;Isuzu;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;243.84;438.40;165.61;130.56;1240.12;Arbre en tête;4;119;Injection monopoint;8.71;8.20;9.20;90;5000;9.80;8.11;11048
+V48;0;145;Jaguar;Essence;Atmosphérique;4;Berline;Propulsion;Avant;287.02;506.98;176.78;134.11;1844.31;Double arbre en tête;6;258;Injection multipoint programmée;9.22;10.59;8.10;176;4750;15.68;12.38;32250
+V49;0;;Jaguar;Essence;Atmosphérique;4;Berline;Propulsion;Avant;287.02;506.98;176.78;134.11;1844.31;Double arbre en tête;6;258;Injection multipoint programmée;9.22;10.59;8.10;176;4750;15.68;12.38;35550
+V50;0;;Jaguar;Essence;Atmosphérique;2;Berline;Propulsion;Avant;259.08;486.92;179.32;121.41;1791.69;Arbre en tête en V;12;326;Injection multipoint programmée;8.99;7.01;11.50;262;5000;18.09;13.84;36000
+V51;1;104;Mazda;Essence;Atmosphérique;2;Hayon;Traction;Avant;236.47;404.11;163.07;137.41;857.29;Arbre en tête;4;91;Carburateur 2 corps;7.70;8.00;9;68;5000;7.84;7.59;5195
+V52;1;104;Mazda;Essence;Atmosphérique;2;Hayon;Traction;Avant;236.47;404.11;163.07;137.41;861.83;Arbre en tête;4;91;Carburateur 2 corps;7.70;8.00;9;68;5000;7.59;6.19;6095
+V53;1;104;Mazda;Essence;Atmosphérique;2;Hayon;Traction;Avant;236.47;404.11;163.07;137.41;864.09;Arbre en tête;4;91;Carburateur 2 corps;7.70;8.00;9;68;5000;7.59;6.19;6795
+V54;1;113;Mazda;Essence;Atmosphérique;4;Berline;Traction;Avant;236.47;423.67;163.07;137.41;882.24;Arbre en tête;4;91;Carburateur 2 corps;7.70;8.00;9;68;5000;7.59;6.19;6695
+V55;1;113;Mazda;Essence;Atmosphérique;4;Berline;Traction;Avant;236.47;423.67;163.07;137.41;884.51;Arbre en tête;4;91;Carburateur 2 corps;7.82;8.00;9;68;5000;7.59;6.19;7395
+V56;3;150;Mazda;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;242.06;429.26;166.88;125.98;1079.55;Rotatif;2;70;Carburateur 4 corps;;;9.40;101;6000;13.84;10.23;10945
+V57;3;150;Mazda;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;242.06;429.26;166.88;125.98;1079.55;Rotatif;2;70;Carburateur 4 corps;;;9.40;101;6000;13.84;10.23;11845
+V58;3;150;Mazda;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;242.06;429.26;166.88;125.98;1081.82;Rotatif;2;70;Carburateur 4 corps;;;9.40;101;6000;13.84;10.23;13645
+V59;3;150;Mazda;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;242.06;429.26;166.88;125.98;1133.98;Rotatif;2;80;Injection multipoint programmée;;;9.40;135;6000;14.70;10.23;15645
+V60;1;129;Mazda;Essence;Atmosphérique;2;Hayon;Traction;Avant;250.95;451.61;168.91;136.40;1081.82;Arbre en tête;4;122;Carburateur 2 corps;8.61;8.61;8.60;84;4800;9.05;7.35;8845
+V61;0;115;Mazda;Essence;Atmosphérique;4;Berline;Traction;Avant;250.95;451.61;168.91;140.97;1093.16;Arbre en tête;4;122;Carburateur 2 corps;8.61;8.61;8.60;84;4800;9.05;7.35;8495
+V62;1;129;Mazda;Essence;Atmosphérique;2;Hayon;Traction;Avant;250.95;451.61;168.91;136.40;1081.82;Arbre en tête;4;122;Carburateur 2 corps;8.61;8.61;8.60;84;4800;9.05;7.35;10595
+V63;0;115;Mazda;Essence;Atmosphérique;4;Berline;Traction;Avant;250.95;451.61;168.91;140.97;1093.16;Arbre en tête;4;122;Carburateur 2 corps;8.61;8.61;8.60;84;4800;9.05;7.35;10245
+V64;0;;Mazda;Diesel;Atmosphérique;;Berline;Traction;Avant;250.95;451.61;168.91;140.97;1108.13;Arbre en tête;4;122;Injection indirecte;8.61;8.61;22.70;64;4650;6.53;5.60;10795
+V65;0;115;Mazda;Essence;Atmosphérique;4;Hayon;Traction;Avant;250.95;451.61;168.91;140.97;1099.96;Arbre en tête;4;122;Carburateur 2 corps;8.61;8.61;8.60;84;4800;9.05;7.35;11245
+V66;0;118;Mazda;Essence;Atmosphérique;4;Berline;Propulsion;Avant;266.45;444.50;167.89;138.18;1211.09;Arbre en tête;4;140;Injection multipoint programmée;9.55;8.03;8;120;5000;12.38;8.71;18280
+V67;0;;Mazda;Diesel;Atmosphérique;4;Berline;Propulsion;Avant;266.45;444.50;167.89;138.18;1224.70;Arbre en tête;4;134;Injection indirecte;8.71;9.25;22;72;4200;7.59;6.03;18344
+V68;-1;93;Mercedes-Benz;Diesel;Turbo;4;Berline;Propulsion;Avant;279.40;484.89;178.56;143.51;1594.38;Arbre en tête;5;183;Injection indirecte;9.09;9.25;21.50;123;4350;10.69;9.41;25552
+V69;-1;93;Mercedes-Benz;Diesel;Turbo;4;Break;Propulsion;Avant;279.40;484.89;178.56;149.10;1700.97;Arbre en tête;5;183;Injection indirecte;9.09;9.25;21.50;123;4350;10.69;9.41;28248
+V70;0;93;Mercedes-Benz;Diesel;Turbo;2;Coupé sans montant;Propulsion;Avant;271.02;476.25;178.56;139.45;1585.31;Arbre en tête;5;183;Injection indirecte;9.09;9.25;21.50;123;4350;10.69;9.41;28176
+V71;-1;93;Mercedes-Benz;Diesel;Turbo;4;Berline;Propulsion;Avant;293.62;514.60;182.12;143.00;1710.04;Arbre en tête;5;183;Injection indirecte;9.09;9.25;21.50;123;4350;10.69;9.41;31600
+V72;-1;;Mercedes-Benz;Essence;Atmosphérique;4;Berline;Propulsion;Avant;293.62;514.60;182.12;143.51;1696.44;Arbre en tête en V;8;234;Injection multipoint programmée;8.79;7.87;8.30;155;4750;14.70;13.07;34184
+V73;3;142;Mercedes-Benz;Essence;Atmosphérique;2;Cabriolet;Propulsion;Avant;245.36;457.96;179.07;129.03;1671.49;Arbre en tête en V;8;234;Injection multipoint programmée;8.79;7.87;8.30;155;4750;14.70;13.07;35056
+V74;0;;Mercedes-Benz;Essence;Atmosphérique;4;Berline;Propulsion;Avant;307.09;528.57;182.12;144.02;1769.01;Arbre en tête en V;8;308;Injection multipoint programmée;9.65;8.51;8;184;4500;16.80;14.70;40960
+V75;1;;Mercedes-Benz;Essence;Atmosphérique;2;Coupé sans montant;Propulsion;Avant;284.48;505.97;182.88;140.72;1685.10;Arbre en tête en V;8;304;Injection multipoint programmée;9.65;8.51;8;184;4500;16.80;14.70;45400
+V76;1;;Mercury;Essence;Turbo;2;Hayon;Propulsion;Avant;260.86;453.14;172.72;139.19;1319.95;Arbre en tête;4;140;Injection multipoint programmée;9.60;7.92;8;175;5000;12.38;9.80;16503
+V77;2;161;Mitsubishi;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;399.54;163.58;129.03;869.99;Arbre en tête;4;92;Carburateur 2 corps;7.54;8.20;9.40;68;5500;6.36;5.74;5389
+V78;2;161;Mitsubishi;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;399.54;163.58;129.03;881.78;Arbre en tête;4;92;Carburateur 2 corps;7.54;8.20;9.40;68;5500;7.59;6.19;6189
+V79;2;161;Mitsubishi;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;399.54;163.58;129.03;909.00;Arbre en tête;4;92;Carburateur 2 corps;7.54;8.20;9.40;68;5500;7.59;6.19;6669
+V80;1;161;Mitsubishi;Essence;Turbo;2;Hayon;Traction;Avant;236.22;399.54;162.05;129.03;972.96;Arbre en tête;4;98;Injection directe;7.70;8.61;7.60;102;5500;9.80;7.84;7689
+V81;3;153;Mitsubishi;Essence;Turbo;2;Hayon;Traction;Avant;244.60;439.42;166.12;125.48;1075.01;Arbre en tête;4;110;Injection directe;8.05;8.79;7.50;116;5500;10.23;7.84;9959
+V82;3;153;Mitsubishi;Essence;Atmosphérique;2;Hayon;Traction;Avant;244.60;439.42;166.12;125.48;1055.96;Arbre en tête;4;122;Carburateur 2 corps;8.51;8.79;8.50;88;5000;9.41;7.35;8499
+V83;3;;Mitsubishi;Essence;Turbo;2;Hayon;Traction;Avant;243.59;439.93;168.40;127.51;1285.03;Arbre en tête;4;156;Injection directe;9.09;9.80;7;145;5000;12.38;9.80;12629
+V84;3;;Mitsubishi;Essence;Turbo;2;Hayon;Traction;Avant;243.59;439.93;168.40;127.51;1324.94;Arbre en tête;4;156;Injection directe;9.12;9.80;7;145;5000;12.38;9.80;14869
+V85;3;;Mitsubishi;Essence;Turbo;2;Hayon;Traction;Avant;243.59;439.93;168.40;127.51;1327.21;Arbre en tête;4;156;Injection directe;9.12;9.80;7;145;5000;12.38;9.80;14489
+V86;1;125;Mitsubishi;Essence;Atmosphérique;4;Berline;Traction;Avant;244.60;437.90;166.12;131.06;1072.75;Arbre en tête;4;122;Carburateur 2 corps;8.51;8.79;8.50;88;5000;9.41;7.35;6989
+V87;1;125;Mitsubishi;Essence;Atmosphérique;4;Berline;Traction;Avant;244.60;437.90;166.12;131.06;1090.89;Arbre en tête;4;122;Carburateur 2 corps;8.51;8.79;8.50;88;5000;9.41;7.35;8189
+V88;1;125;Mitsubishi;Essence;Turbo;4;Berline;Traction;Avant;244.60;437.90;166.12;131.06;1089.98;Arbre en tête;4;110;Injection directe;8.05;8.79;7.50;116;5500;10.23;7.84;9279
+V89;-1;137;Mitsubishi;Essence;Atmosphérique;4;Berline;Traction;Avant;244.60;437.90;166.12;131.06;1089.98;Arbre en tête;4;110;Injection directe;8.05;8.79;7.50;116;5500;10.23;7.84;9279
+V90;1;128;Nissan;Essence;Atmosphérique;2;Berline;Traction;Avant;240.03;419.86;162.05;138.43;856.84;Arbre en tête;4;97;Carburateur 2 corps;8.00;8.36;9.40;69;5200;7.59;6.36;5499
+V91;1;128;Nissan;Diesel;Atmosphérique;2;Berline;Traction;Avant;240.03;419.86;162.05;138.43;914.90;Arbre en tête;4;103;Injection indirecte;7.59;8.81;21.90;55;4800;5.23;4.70;7099
+V92;1;128;Nissan;Essence;Atmosphérique;2;Berline;Traction;Avant;240.03;419.86;162.05;138.43;869.99;Arbre en tête;4;97;Carburateur 2 corps;8.00;8.36;9.40;69;5200;7.59;6.36;6649
+V93;1;122;Nissan;Essence;Atmosphérique;4;Berline;Traction;Avant;240.03;419.86;162.05;138.43;879.06;Arbre en tête;4;97;Carburateur 2 corps;8.00;8.36;9.40;69;5200;7.59;6.36;6849
+V94;1;103;Nissan;Essence;Atmosphérique;4;Break;Traction;Avant;240.03;432.31;162.05;135.89;918.07;Arbre en tête;4;97;Carburateur 2 corps;8.00;8.36;9.40;69;5200;7.59;6.36;7349
+V95;1;128;Nissan;Essence;Atmosphérique;2;Berline;Traction;Avant;240.03;419.86;162.05;138.43;884.96;Arbre en tête;4;97;Carburateur 2 corps;8.00;8.36;9.40;69;5200;7.59;6.36;7299
+V96;1;128;Nissan;Essence;Atmosphérique;2;Hayon;Traction;Avant;240.03;420.62;162.05;135.38;919.89;Arbre en tête;4;97;Carburateur 2 corps;8.00;8.36;9.40;69;5200;7.59;6.36;7799
+V97;1;122;Nissan;Essence;Atmosphérique;4;Berline;Traction;Avant;240.03;419.86;162.05;138.43;894.03;Arbre en tête;4;97;Carburateur 2 corps;8.00;8.36;9.40;69;5200;7.59;6.36;7499
+V98;1;103;Nissan;Essence;Atmosphérique;4;Break;Traction;Avant;240.03;432.31;162.05;135.89;923.97;Arbre en tête;4;97;Carburateur 2 corps;8.00;8.36;9.40;69;5200;7.59;6.36;7999
+V99;2;168;Nissan;Essence;Atmosphérique;2;Coupé sans montant;Traction;Avant;241.55;412.50;162.05;135.38;910.81;Arbre en tête;4;97;Carburateur 2 corps;8.00;8.36;9.40;69;5200;7.59;6.36;8249
+V100;0;106;Nissan;Essence;Atmosphérique;4;Hayon;Traction;Avant;246.89;440.44;165.61;138.94;1054.15;Arbre en tête;4;120;Carburateur 2 corps;8.46;8.81;8.50;97;5200;8.71;6.92;8949
+V101;0;106;Nissan;Essence;Atmosphérique;4;Berline;Traction;Avant;246.89;440.44;165.61;138.94;1044.17;Arbre en tête;4;120;Carburateur 2 corps;8.46;8.81;8.50;97;5200;8.71;6.92;9549
+V102;0;128;Nissan;Essence;Atmosphérique;4;Berline;Traction;Avant;255.02;461.52;168.91;139.95;1403.87;Arbre en tête en V;6;181;Injection multipoint programmée;8.71;8.31;9;152;5200;13.84;10.69;13499
+V103;0;108;Nissan;Essence;Atmosphérique;4;Break;Traction;Avant;255.02;468.88;168.91;142.49;1495.04;Arbre en tête en V;6;181;Injection multipoint programmée;8.71;8.31;9;152;5200;13.84;10.69;14399
+V104;0;108;Nissan;Essence;Atmosphérique;4;Berline;Traction;Avant;255.02;468.88;168.91;139.95;1387.99;Arbre en tête en V;6;181;Injection multipoint programmée;8.71;8.31;9;152;5200;12.38;9.41;13499
+V105;3;194;Nissan;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;231.90;433.58;172.47;126.24;1392.98;Arbre en tête en V;6;181;Injection multipoint programmée;8.71;8.31;9;160;5200;12.38;9.41;17199
+V106;3;194;Nissan;Essence;Turbo;2;Hayon;Propulsion;Avant;231.90;433.58;172.47;126.24;1423.83;Arbre en tête en V;6;181;Injection multipoint programmée;8.71;8.31;7.80;200;5200;13.84;10.23;19699
+V107;1;231;Nissan;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;251.97;453.39;172.47;126.24;1423.83;Arbre en tête en V;6;181;Injection multipoint programmée;8.71;8.31;9;160;5200;12.38;9.41;18399
+V108;0;161;Peugeot;Essence;Atmosphérique;4;Berline;Propulsion;Avant;274.07;474.22;173.74;144.02;1369.85;En L;4;120;Injection multipoint programmée;8.79;8.10;8.40;97;5000;12.38;9.80;11900
+V109;0;161;Peugeot;Diesel;Turbo;4;Berline;Propulsion;Avant;274.07;474.22;173.74;144.02;1450.13;En L;4;152;Injection indirecte;9.40;8.94;21;95;4150;8.40;7.13;13200
+V110;0;;Peugeot;Essence;Atmosphérique;4;Break;Propulsion;Avant;290.07;505.21;173.74;149.10;1465.10;En L;4;120;Injection multipoint programmée;8.79;8.10;8.40;97;5000;12.38;9.80;12440
+V111;0;;Peugeot;Diesel;Turbo;4;Break;Propulsion;Avant;290.07;505.21;173.74;149.10;1555.82;En L;4;152;Injection indirecte;9.40;8.94;21;95;4150;9.41;9.41;13860
+V112;0;161;Peugeot;Essence;Atmosphérique;4;Berline;Propulsion;Avant;274.07;474.22;173.74;144.02;1394.80;En L;4;120;Injection multipoint programmée;8.79;5.56;8.40;95;5000;12.38;9.80;15580
+V113;0;161;Peugeot;Diesel;Turbo;4;Berline;Propulsion;Avant;274.07;474.22;173.74;144.02;1475.08;En L;4;152;Injection indirecte;9.40;8.94;21;95;4150;8.40;7.13;16900
+V114;0;;Peugeot;Essence;Atmosphérique;4;Break;Propulsion;Avant;290.07;505.21;173.74;144.02;1490.05;En L;4;120;Injection multipoint programmée;8.79;5.56;8.40;95;5000;12.38;9.80;16695
+V115;0;;Peugeot;Diesel;Turbo;4;Break;Propulsion;Avant;290.07;505.21;173.74;149.10;1580.77;En L;4;152;Injection indirecte;9.40;8.94;21;95;4150;9.41;9.41;17075
+V116;0;161;Peugeot;Essence;Atmosphérique;4;Berline;Propulsion;Avant;274.07;474.22;173.74;144.02;1394.80;En L;4;120;Injection multipoint programmée;8.79;8.10;8.40;97;5000;12.38;9.80;16630
+V117;0;161;Peugeot;Diesel;Turbo;4;Berline;Propulsion;Avant;274.07;474.22;173.74;144.02;1475.08;En L;4;152;Injection indirecte;9.40;8.94;21;95;4150;8.40;7.13;17950
+V118;0;161;Peugeot;Essence;Turbo;4;Berline;Propulsion;Avant;274.32;474.22;173.48;142.24;1419.74;En L;4;134;Injection multipoint programmée;9.17;8.15;7;142;5600;13.07;9.80;18150
+V119;1;119;Plymouth;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;399.54;162.05;129.03;869.99;Arbre en tête;4;90;Carburateur 2 corps;7.54;8.20;9.40;68;5500;6.36;5.74;5572
+V120;1;119;Plymouth;Essence;Turbo;2;Hayon;Traction;Avant;238.00;399.54;162.05;129.03;965.24;Arbre en tête;4;98;Injection directe;7.70;8.61;7.60;102;5500;9.80;7.84;7957
+V121;1;154;Plymouth;Essence;Atmosphérique;4;Hayon;Traction;Avant;238.00;399.54;162.05;128.52;892.22;Arbre en tête;4;90;Carburateur 2 corps;7.54;8.20;9.40;68;5500;7.59;6.19;6229
+V122;1;154;Plymouth;Essence;Atmosphérique;4;Berline;Traction;Avant;238.00;424.94;162.05;129.03;902.20;Arbre en tête;4;90;Carburateur 2 corps;7.54;8.20;9.40;68;5500;7.59;6.19;6692
+V123;1;154;Plymouth;Essence;Atmosphérique;4;Berline;Traction;Avant;238.00;424.94;162.05;129.03;993.82;Arbre en tête;4;98;Carburateur 2 corps;7.54;8.20;9.40;68;5500;7.59;6.19;7609
+V124;-1;74;Plymouth;Essence;Atmosphérique;4;Break;Traction;Avant;262.38;443.48;164.08;151.89;1149.86;Arbre en tête;4;122;Carburateur 2 corps;8.51;8.79;8.50;88;5000;9.80;7.84;8921
+V125;3;;Plymouth;Essence;Turbo;2;Hayon;Propulsion;Avant;243.59;439.93;168.40;127.51;1278.22;Arbre en tête;4;156;Injection directe;9.12;9.80;7;145;5000;12.38;9.80;12764
+V126;3;186;Porsche;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;240.03;429.01;173.48;127.51;1260.08;Arbre en tête;4;151;Injection multipoint programmée;10.01;7.90;9.50;143;5500;12.38;8.71;22018
+V127;3;;Porsche;Essence;Atmosphérique;2;Coupé sans montant;Propulsion;Arrière;227.33;429.01;165.10;131.06;1250.10;Arbre en tête à plat;6;194;Injection multipoint programmée;9.50;7.37;9.50;207;5900;13.84;9.41;32528
+V128;3;;Porsche;Essence;Atmosphérique;2;Coupé sans montant;Propulsion;Arrière;227.33;429.01;165.10;131.06;1250.10;Arbre en tête à plat;6;194;Injection multipoint programmée;9.50;7.37;9.50;207;5900;13.84;9.41;34028
+V129;3;;Porsche;Essence;Atmosphérique;2;Cabriolet;Propulsion;Arrière;227.33;429.01;165.10;131.06;1270.06;Arbre en tête à plat;6;194;Injection multipoint programmée;9.50;7.37;9.50;207;5900;13.84;9.41;37028
+V130;1;;Porsche;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;249.94;446.28;183.64;128.27;1526.79;Double arbre en tête en V;8;203;Injection multipoint programmée;10.01;7.90;10;288;5750;13.84;8.40;
+V131;0;;Renault;Essence;Atmosphérique;4;Break;Traction;Avant;244.09;461.01;168.91;140.21;1169.81;Arbre en tête;4;132;Injection multipoint programmée;8.79;9.91;8.70;;;10.23;7.59;9295
+V132;2;;Renault;Essence;Atmosphérique;2;Hayon;Traction;Avant;244.09;449.07;169.16;128.27;1115.84;Arbre en tête;4;132;Injection multipoint programmée;8.79;9.91;8.70;;;10.23;7.59;9895
+V133;3;150;Saab;Essence;Atmosphérique;2;Hayon;Traction;Avant;251.71;473.96;168.91;142.49;1205.65;Arbre en tête;4;121;Injection multipoint programmée;8.99;7.80;9.31;110;5250;11.20;8.40;11850
+V134;2;104;Saab;Essence;Atmosphérique;4;Berline;Traction;Avant;251.71;473.96;168.91;142.49;1222.43;Arbre en tête;4;121;Injection multipoint programmée;8.99;7.80;9.30;110;5250;11.20;8.40;12170
+V135;3;150;Saab;Essence;Atmosphérique;2;Hayon;Traction;Avant;251.71;473.96;168.91;142.49;1227.87;Arbre en tête;4;121;Injection multipoint programmée;6.45;5.26;9.30;110;5250;11.20;8.40;15040
+V136;2;104;Saab;Essence;Atmosphérique;4;Berline;Traction;Avant;251.71;473.96;168.91;142.49;1251.01;Arbre en tête;4;121;Injection multipoint programmée;8.99;7.80;9.30;110;5250;11.20;8.40;15510
+V137;3;150;Saab;Essence;Turbo;2;Hayon;Traction;Avant;251.71;473.96;168.91;142.49;1273.69;Double arbre en tête;4;121;Injection multipoint programmée;8.99;7.80;9;160;5500;12.38;9.05;18150
+V138;2;104;Saab;Essence;Turbo;4;Berline;Traction;Avant;251.71;473.96;168.91;142.49;1291.38;Double arbre en tête;4;121;Injection multipoint programmée;8.99;7.80;9;160;5500;12.38;9.05;18620
+V139;2;83;Subaru;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;398.53;161.04;136.40;929.86;Arbre en tête à plat;4;97;Carburateur 2 corps;9.19;5.99;9;69;4900;7.59;6.53;5118
+V140;2;83;Subaru;Essence;Atmosphérique;2;Hayon;Traction;Avant;238.00;401.07;161.54;136.40;961.62;Arbre en tête à plat;4;108;Carburateur 2 corps;9.19;6.71;8.70;73;4400;9.05;7.59;7053
+V141;2;83;Subaru;Essence;Atmosphérique;2;Hayon;Quatre roues;Avant;236.98;399.54;162.05;141.48;1016.05;Arbre en tête à plat;4;108;Carburateur 2 corps;9.19;6.71;8.70;73;4400;9.05;7.59;7603
+V142;0;102;Subaru;Essence;Atmosphérique;4;Berline;Traction;Avant;246.89;436.88;166.12;133.35;972.96;Arbre en tête à plat;4;108;Carburateur 2 corps;9.19;6.71;9.50;82;4800;7.35;6.36;7126
+V143;0;102;Subaru;Essence;Atmosphérique;4;Berline;Traction;Avant;246.89;436.88;166.12;133.35;993.37;Arbre en tête à plat;4;108;Carburateur 2 corps;9.19;6.71;9.50;82;4400;8.40;7.13;7775
+V144;0;102;Subaru;Essence;Atmosphérique;4;Berline;Traction;Avant;246.89;436.88;166.12;133.35;1061.41;Arbre en tête à plat;4;108;Injection multipoint programmée;9.19;6.71;9;94;5200;9.05;7.35;9960
+V145;0;102;Subaru;Essence;Atmosphérique;4;Berline;Quatre roues;Avant;246.38;436.88;166.12;137.92;1081.82;Arbre en tête à plat;4;108;Carburateur 2 corps;9.19;6.71;9;82;4800;9.80;9.41;9233
+V146;0;102;Subaru;Essence;Turbo;4;Berline;Quatre roues;Avant;246.38;436.88;166.12;137.92;1138.52;Arbre en tête à plat;4;108;Injection multipoint programmée;9.19;6.71;7.70;111;4800;9.80;8.11;11259
+V147;0;89;Subaru;Essence;Atmosphérique;4;Break;Traction;Avant;246.38;440.69;166.12;134.62;1038.73;Arbre en tête à plat;4;108;Carburateur 2 corps;9.19;6.71;9;82;4800;8.40;7.35;7463
+V148;0;89;Subaru;Essence;Atmosphérique;4;Break;Traction;Avant;246.38;440.69;166.12;134.62;1113.57;Arbre en tête à plat;4;108;Injection multipoint programmée;9.19;6.71;9;94;5200;9.41;7.59;10198
+V149;0;85;Subaru;Essence;Atmosphérique;4;Break;Quatre roues;Avant;246.13;440.94;166.12;139.45;1097.69;Arbre en tête à plat;4;108;Carburateur 2 corps;9.19;6.71;9;82;4800;10.23;8.11;8013
+V150;0;85;Subaru;Essence;Turbo;4;Break;Quatre roues;Avant;246.13;440.94;166.12;139.45;1202.02;Arbre en tête à plat;4;108;Injection multipoint programmée;9.19;6.71;7.70;111;4800;10.23;10.23;11694
+V151;1;87;Toyota;Essence;Atmosphérique;2;Hayon;Traction;Avant;243.08;403.10;161.54;138.43;900.38;Arbre en tête;4;92;Carburateur 2 corps;7.75;7.70;9;62;4800;6.72;6.03;5348
+V152;1;87;Toyota;Essence;Atmosphérique;2;Hayon;Traction;Avant;243.08;403.10;161.54;138.43;925.33;Arbre en tête;4;92;Carburateur 2 corps;7.75;7.70;9;62;4800;7.59;6.19;6338
+V153;1;74;Toyota;Essence;Atmosphérique;4;Hayon;Traction;Avant;243.08;403.10;161.54;138.43;913.99;Arbre en tête;4;92;Carburateur 2 corps;7.75;7.70;9;62;4800;7.59;6.19;6488
+V154;0;77;Toyota;Essence;Atmosphérique;4;Break;Traction;Avant;243.08;431.04;161.54;150.11;1034.19;Arbre en tête;4;92;Carburateur 2 corps;7.75;7.70;9;62;4800;7.59;6.36;6918
+V155;0;81;Toyota;Essence;Atmosphérique;4;Break;Quatre roues;Avant;243.08;431.04;161.54;150.11;1038.73;Arbre en tête;4;92;Carburateur 2 corps;7.75;7.70;9;62;4800;8.71;7.35;7898
+V156;0;91;Toyota;Essence;Atmosphérique;4;Break;Quatre roues;Avant;243.08;431.04;161.54;150.11;1410.67;Arbre en tête;4;92;Carburateur 2 corps;7.75;7.70;9;62;4800;8.71;7.35;8778
+V157;0;91;Toyota;Essence;Atmosphérique;4;Berline;Traction;Avant;243.08;422.40;163.58;134.62;943.93;Arbre en tête;4;98;Carburateur 2 corps;8.10;7.70;9;70;4800;7.84;6.36;6938
+V158;0;91;Toyota;Essence;Atmosphérique;4;Hayon;Traction;Avant;243.08;422.40;163.58;134.11;956.63;Arbre en tête;4;98;Carburateur 2 corps;8.10;7.70;9;70;4800;7.84;6.36;7198
+V159;0;91;Toyota;Diesel;Atmosphérique;4;Berline;Traction;Avant;243.08;422.40;163.58;134.62;1031.92;Arbre en tête;4;110;Injection indirecte;8.31;8.51;22.50;56;4500;6.92;6.53;7898
+V160;0;91;Toyota;Diesel;Atmosphérique;4;Hayon;Traction;Avant;243.08;422.40;163.58;134.11;1031.92;Arbre en tête;4;110;Injection indirecte;8.31;8.51;22.50;56;4500;6.19;5.00;7788
+V161;0;91;Toyota;Essence;Atmosphérique;4;Berline;Traction;Avant;243.08;422.40;163.58;134.62;949.82;Arbre en tête;4;98;Carburateur 2 corps;8.10;7.70;9;70;4800;6.19;5.00;7738
+V162;0;91;Toyota;Essence;Atmosphérique;4;Hayon;Traction;Avant;243.08;422.40;163.58;134.11;962.52;Arbre en tête;4;98;Carburateur 2 corps;8.10;7.70;9;70;4800;8.40;6.92;8358
+V163;0;91;Toyota;Essence;Atmosphérique;4;Berline;Traction;Avant;243.08;422.40;163.58;134.11;970.69;Arbre en tête;4;98;Carburateur 2 corps;8.10;7.70;9;70;4800;8.40;6.92;9258
+V164;1;168;Toyota;Essence;Atmosphérique;2;Berline;Propulsion;Avant;240.03;428.50;162.56;133.60;983.84;Arbre en tête;4;98;Carburateur 2 corps;8.10;7.70;9;70;4800;8.11;6.92;8058
+V165;1;168;Toyota;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;240.03;428.50;162.56;133.60;999.72;Arbre en tête;4;98;Carburateur 2 corps;8.10;7.70;9;70;4800;8.11;6.92;8238
+V166;1;168;Toyota;Essence;Atmosphérique;2;Berline;Propulsion;Avant;240.03;428.50;162.56;133.60;1027.39;Double arbre en tête;4;98;Injection multipoint programmée;8.23;7.82;9.40;112;6600;9.05;8.11;9298
+V167;1;168;Toyota;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;240.03;428.50;162.56;133.60;1043.26;Double arbre en tête;4;98;Injection multipoint programmée;8.23;7.82;9.40;112;6600;9.05;8.11;9538
+V168;2;134;Toyota;Essence;Atmosphérique;2;Coupé sans montant;Propulsion;Avant;249.94;447.55;166.62;132.08;1152.12;Arbre en tête;4;146;Injection multipoint programmée;9.19;8.89;9.30;116;4800;9.80;7.84;8449
+V169;2;134;Toyota;Essence;Atmosphérique;2;Coupé sans montant;Propulsion;Avant;249.94;447.55;166.62;132.08;1150.31;Arbre en tête;4;146;Injection multipoint programmée;9.19;8.89;9.30;116;4800;9.80;7.84;9639
+V170;2;134;Toyota;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;249.94;447.55;166.62;132.08;1157.11;Arbre en tête;4;146;Injection multipoint programmée;9.19;8.89;9.30;116;4800;9.80;7.84;9989
+V171;2;134;Toyota;Essence;Atmosphérique;2;Coupé sans montant;Propulsion;Avant;249.94;447.55;166.62;132.08;1215.17;Arbre en tête;4;146;Injection multipoint programmée;9.19;8.89;9.30;116;4800;9.80;7.84;11199
+V172;2;134;Toyota;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;249.94;447.55;166.62;132.08;1231.05;Arbre en tête;4;146;Injection multipoint programmée;9.19;8.89;9.30;116;4800;9.80;7.84;11549
+V173;2;134;Toyota;Essence;Atmosphérique;2;Cabriolet;Propulsion;Avant;249.94;447.55;166.62;134.62;1349.44;Arbre en tête;4;146;Injection multipoint programmée;9.19;8.89;9.30;116;4800;9.80;7.84;17669
+V174;-1;65;Toyota;Essence;Atmosphérique;4;Berline;Traction;Avant;260.10;446.02;168.91;139.45;1055.06;Arbre en tête;4;122;Injection multipoint programmée;8.41;8.99;8.70;92;4200;8.11;6.92;8948
+V175;-1;65;Toyota;Diesel;Turbo;4;Berline;Traction;Avant;260.10;446.02;168.91;139.45;1124.91;Arbre en tête;4;110;Injection indirecte;8.31;8.51;22.50;73;4500;7.84;7.13;10698
+V176;-1;65;Toyota;Essence;Atmosphérique;4;Hayon;Traction;Avant;260.10;446.02;168.91;136.91;1094.97;Arbre en tête;4;122;Injection multipoint programmée;8.41;8.99;8.70;92;4200;8.71;7.35;9988
+V177;-1;65;Toyota;Essence;Atmosphérique;4;Berline;Traction;Avant;260.10;446.02;168.91;139.45;1094.97;Arbre en tête;4;122;Injection multipoint programmée;8.41;8.99;8.70;92;4200;8.71;7.35;10898
+V178;-1;65;Toyota;Essence;Atmosphérique;4;Hayon;Traction;Avant;260.10;446.02;168.91;136.91;1114.93;Arbre en tête;4;122;Injection multipoint programmée;8.41;8.99;8.70;92;4200;8.71;7.35;11248
+V179;3;197;Toyota;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;261.37;466.09;171.96;132.08;1349.89;Double arbre en tête;6;171;Injection multipoint programmée;8.31;8.51;9.30;161;5200;11.76;9.80;16558
+V180;3;197;Toyota;Essence;Atmosphérique;2;Hayon;Propulsion;Avant;261.37;466.09;171.96;132.08;1368.03;Double arbre en tête;6;171;Injection multipoint programmée;8.31;8.51;9.30;161;5200;12.38;9.80;15998
+V181;-1;90;Toyota;Essence;Atmosphérique;4;Berline;Propulsion;Avant;265.43;477.01;168.91;137.41;1420.20;Double arbre en tête;6;171;Injection multipoint programmée;8.31;8.51;9.20;156;5200;11.76;9.80;15690
+V182;-1;;Toyota;Essence;Atmosphérique;4;Break;Propulsion;Avant;265.43;477.01;168.91;137.41;1429.27;Double arbre en tête;6;161;Injection multipoint programmée;8.31;8.51;9.20;156;5200;12.38;9.80;15750
+V183;2;122;Volkswagen;Diesel;Atmosphérique;2;Berline;Traction;Avant;247.14;436.12;166.37;141.48;1025.57;Arbre en tête;4;97;Injection indirecte;7.65;8.64;23;52;4800;6.36;5.11;7775
+V184;2;122;Volkswagen;Essence;Atmosphérique;2;Berline;Traction;Avant;247.14;436.12;166.37;141.48;1001.99;Arbre en tête;4;109;Injection multipoint programmée;8.10;8.64;9;85;5250;8.71;6.92;7975
+V185;2;94;Volkswagen;Diesel;Atmosphérique;4;Berline;Traction;Avant;247.14;436.12;166.37;141.48;1026.93;Arbre en tête;4;97;Injection indirecte;7.65;8.64;23;52;4800;6.36;5.11;7995
+V186;2;94;Volkswagen;Essence;Atmosphérique;4;Berline;Traction;Avant;247.14;436.12;166.37;141.48;1003.35;Arbre en tête;4;109;Injection multipoint programmée;8.10;8.64;9;85;5250;8.71;6.92;8195
+V187;2;94;Volkswagen;Essence;Atmosphérique;4;Berline;Traction;Avant;247.14;436.12;166.37;141.48;1031.92;Arbre en tête;4;109;Injection multipoint programmée;8.10;8.64;9;85;5250;8.71;6.92;8495
+V188;2;94;Volkswagen;Diesel;Turbo;4;Berline;Traction;Avant;247.14;436.12;166.37;141.48;1051.88;Arbre en tête;4;97;Injection indirecte;7.65;8.64;23;68;4500;6.36;5.60;9495
+V189;2;94;Volkswagen;Essence;Atmosphérique;4;Berline;Traction;Avant;247.14;436.12;166.37;141.48;1043.26;Arbre en tête;4;109;Injection multipoint programmée;8.10;8.64;10;100;5500;9.05;7.35;9995
+V190;3;;Volkswagen;Essence;Atmosphérique;2;Cabriolet;Traction;Avant;240.03;404.62;163.07;141.22;1022.40;Arbre en tête;4;109;Injection multipoint programmée;8.10;8.64;8.50;90;5500;9.80;8.11;11595
+V191;3;256;Volkswagen;Essence;Atmosphérique;2;Hayon;Traction;Avant;240.03;420.88;162.56;130.56;1007.43;Arbre en tête;4;109;Injection multipoint programmée;8.10;8.64;8.50;90;5500;9.80;8.11;9980
+V192;0;;Volkswagen;Essence;Atmosphérique;4;Berline;Traction;Avant;255.02;457.71;169.93;139.95;1207.01;Arbre en tête;5;136;Injection multipoint programmée;8.10;8.64;8.50;110;5500;12.38;9.80;13295
+V193;0;;Volkswagen;Diesel;Turbo;4;Berline;Traction;Avant;255.02;457.71;169.93;139.95;1169.81;Arbre en tête;4;97;Injection indirecte;7.65;8.64;23;68;4500;7.13;6.19;13845
+V194;0;;Volkswagen;Essence;Atmosphérique;4;Break;Traction;Avant;255.02;465.07;169.93;139.95;1162.56;Arbre en tête;4;109;Injection multipoint programmée;8.10;8.64;9;88;5500;9.41;7.59;12290
+V195;-2;103;Volvo;Essence;Atmosphérique;4;Berline;Propulsion;Avant;264.92;479.55;170.69;142.75;1320.86;Arbre en tête;4;141;Injection multipoint programmée;9.60;8.00;9.50;114;5400;10.23;8.40;12940
+V196;-1;74;Volvo;Essence;Atmosphérique;4;Break;Propulsion;Avant;264.92;479.55;170.69;146.05;1376.20;Arbre en tête;4;141;Injection multipoint programmée;9.60;8.00;9.50;114;5400;10.23;8.40;13415
+V197;-2;103;Volvo;Essence;Atmosphérique;4;Berline;Propulsion;Avant;264.92;479.55;170.69;142.75;1331.29;Arbre en tête;4;141;Injection multipoint programmée;9.60;8.00;9.50;114;5400;9.80;8.40;15985
+V198;-1;74;Volvo;Essence;Atmosphérique;4;Break;Propulsion;Avant;264.92;479.55;170.69;146.05;1379.83;Arbre en tête;4;141;Injection multipoint programmée;9.60;8.00;9.50;114;5400;9.80;8.40;16515
+V199;-2;103;Volvo;Essence;Turbo;4;Berline;Propulsion;Avant;264.92;479.55;170.69;142.75;1381.19;Arbre en tête;4;130;Injection multipoint programmée;9.19;8.00;7.50;162;5100;13.84;10.69;18420
+V200;-1;74;Volvo;Essence;Turbo;4;Break;Propulsion;Avant;264.92;479.55;170.69;146.05;1431.99;Arbre en tête;4;130;Injection multipoint programmée;9.19;8.00;7.50;162;5100;13.84;10.69;18950
+V201;-1;95;Volvo;Essence;Atmosphérique;4;Berline;Propulsion;Avant;277.11;479.55;175.01;140.97;1339.00;Arbre en tête;4;141;Injection multipoint programmée;9.60;8.00;9.50;114;5400;10.23;8.40;16845
+V202;-1;95;Volvo;Essence;Turbo;4;Berline;Propulsion;Avant;277.11;479.55;174.75;140.97;1383.00;Arbre en tête;4;141;Injection multipoint programmée;9.60;8.00;8.70;160;5300;12.38;9.41;19045
+V203;-1;95;Volvo;Essence;Atmosphérique;4;Berline;Propulsion;Avant;277.11;479.55;175.01;140.97;1366.22;Arbre en tête en V;6;173;Injection multipoint programmée;9.09;7.29;8.80;134;5500;13.07;10.23;21485
+V204;-1;95;Volvo;Diesel;Turbo;4;Berline;Propulsion;Avant;277.11;479.55;175.01;140.97;1459.21;Arbre en tête;6;145;Injection indirecte;7.65;8.64;23;106;4800;9.05;8.71;22470
+V205;-1;95;Volvo;Essence;Turbo;4;Berline;Propulsion;Avant;277.11;479.55;175.01;140.97;1388.90;Arbre en tête;4;141;Injection multipoint programmée;9.60;8.00;9.50;114;5400;12.38;9.41;22625

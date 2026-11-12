@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AutoStat — Présentation</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --fond: #101823;
+      --panneau: #182637;
+      --texte: #f2f6fa;
+      --secondaire: #a9bacb;
+      --accent: #70e1c1;
+      --orange: #ffbf69;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--fond);
+      color: var(--texte);
+      font: 18px/1.5 "Segoe UI", Arial, sans-serif;
+    }
+    main { min-height: 100vh; display: grid; place-items: center; padding: 3rem 5vw 6rem; }
+    .slide {
+      display: none;
+      width: min(1120px, 100%);
+      min-height: min(680px, 78vh);
+      padding: clamp(2rem, 5vw, 4.5rem);
+      border: 1px solid #2e4358;
+      border-radius: 24px;
+      background:
+        radial-gradient(ellipse at 92% 8%, #244252 0, transparent 34%),
+        linear-gradient(145deg, #1a2a3a, var(--panneau));
+      box-shadow: 0 28px 80px #0005;
+    }
+    .slide.active { display: flex; flex-direction: column; justify-content: center; }
+    .eyebrow { color: var(--accent); font-size: .82rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { max-width: 850px; margin: .35rem 0 1rem; font-size: clamp(2.6rem, 7vw, 5.7rem); line-height: 1.03; }
+    h2 { margin: .4rem 0 1.6rem; font-size: clamp(2rem, 4.5vw, 3.4rem); line-height: 1.1; }
+    h3 { margin: 0 0 .45rem; color: var(--accent); font-size: 1.15rem; }
+    p { max-width: 850px; color: var(--secondaire); }
+    strong { color: var(--texte); }
+    .accent { color: var(--accent); }
+    .orange { color: var(--orange); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+    .card { padding: 1.2rem; border: 1px solid #365069; border-radius: 16px; background: #101b28a8; }
+    .metric { color: var(--accent); font-size: clamp(2rem, 4vw, 3.3rem); font-weight: 750; line-height: 1.1; }
+    .label { margin-top: .5rem; color: var(--secondaire); }
+    .flow { display: flex; flex-wrap: wrap; align-items: stretch; gap: .65rem; margin: 2rem 0; }
+    .step { flex: 1 1 150px; padding: 1rem; border-radius: 12px; background: #24384b; }
+    .arrow { align-self: center; color: var(--accent); font-size: 1.5rem; }
+    ul { max-width: 900px; padding-left: 1.2em; color: var(--secondaire); }
+    li { margin: .55rem 0; }
+    .bars { display: grid; grid-template-columns: 1fr auto; gap: .7rem 1rem; align-items: center; margin: 1.5rem 0; }
+    .bar { height: 14px; margin-top: .3rem; border-radius: 20px; background: #31475b; }
+    .bar > span { display: block; height: 100%; border-radius: inherit; background: var(--accent); }
+    .quote { margin: 1.5rem 0; padding: 1rem 1.3rem; border-left: 4px solid var(--orange); background: #101b28a8; color: var(--texte); }
+    code { color: var(--accent); font-family: Consolas, monospace; }
+    details { margin-top: auto; padding-top: 1.3rem; color: var(--secondaire); font-size: .9rem; }
+    summary { width: fit-content; color: var(--accent); cursor: pointer; }
+    .controls {
+      position: fixed; right: 2rem; bottom: 1.5rem; left: 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      color: var(--secondaire); font-size: .9rem;
+    }
+    .buttons { display: flex; gap: .5rem; }
+    button {
+      padding: .6rem 1rem; border: 1px solid #48627a; border-radius: 10px;
+      background: #1b2b3c; color: var(--texte); font: inherit; cursor: pointer;
+    }
+    button:hover { border-color: var(--accent); }
+    button:focus-visible, summary:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+    .progress { position: fixed; top: 0; left: 0; height: 4px; background: var(--accent); transition: width .2s ease; }
+    @media (max-width: 600px) {
+      main { padding: 1rem 1rem 5rem; }
+      .slide { min-height: 78vh; padding: 1.5rem; }
+      .controls { right: 1rem; bottom: .7rem; left: 1rem; }
+    }
+    @media print {
+      body { background: white; color: #17212b; }
+      main { display: block; padding: 0; }
+      .slide, .slide.active {
+        display: flex !important; min-height: 95vh; margin: 0; break-after: page;
+        border: 0; border-radius: 0; box-shadow: none; background: white; color: #17212b;
+      }
+      p, ul, details { color: #34495e; }
+      .controls, .progress { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <main>
+    <section class="slide active" data-minutes="0.75">
+      <div class="eyebrow">Projet Python · analyse de données</div>
+      <h1>AutoStat<span class="accent">.</span></h1>
+      <h2>Qu’est-ce qui est associé au prix d’une automobile ?</h2>
+      <p>Un catalogue de 1985, 205 modèles et une chaîne d’analyse robuste, de l’archive ZIP aux corrélations.</p>
+      <div class="grid">
+        <div class="card"><div class="metric">4</div><div class="label">phases progressives</div></div>
+        <div class="card"><div class="metric">17</div><div class="label">variables numériques analysées</div></div>
+        <div class="card"><div class="metric">159</div><div class="label">véhicules complets pour les corrélations</div></div>
+      </div>
+      <details><summary>Notes orateur · 45 s</summary><p>Présenter la question métier : le prix varie-t-il avec les dimensions, le poids, le moteur ou la consommation ? AutoStat transforme une archive historique en résultats reproductibles. Préciser d’emblée que l’analyse mesure des associations, pas des causes.</p></details>
+    </section>
+
+    <section class="slide" data-minutes="1.5">
+      <div class="eyebrow">01 · Le jeu de données</div>
+      <h2>Un vrai fichier, pas un exemple idéalisé</h2>
+      <div class="grid">
+        <div class="card"><div class="metric">205</div><div class="label">modèles de l’année 1985</div></div>
+        <div class="card"><div class="metric">26</div><div class="label">attributs sans ligne d’en-tête</div></div>
+        <div class="card"><div class="metric">7</div><div class="label">colonnes avec des valeurs manquantes</div></div>
+      </div>
+      <ul>
+        <li>Les inconnues sont codées <code>?</code> ; les portes et cylindres sont écrits en lettres.</li>
+        <li>Deux noms de marques sont mal orthographiés dans la source.</li>
+        <li>Les mesures sont en pouces, livres et miles par gallon ; les prix sont des dollars de 1985.</li>
+      </ul>
+      <details><summary>Notes orateur · 1 min 30</summary><p>La source UCI Automobile a été compilée à partir de catalogues et rapports d’époque. Les anomalies de format font partie du problème : il faut les traiter sans altérer la source ni confondre une donnée absente avec une donnée invalide. La colonne price est la cible et quatre prix manquent.</p></details>
+    </section>
+
+    <section class="slide" data-minutes="1.25">
+      <div class="eyebrow">02 · Architecture</div>
+      <h2>Un pipeline modulaire et traçable</h2>
+      <div class="flow">
+        <div class="step"><h3>ZIP UCI</h3><span>lecture sans extraction</span></div><div class="arrow">→</div>
+        <div class="step"><h3>Validation</h3><span>codebook, types, doublons</span></div><div class="arrow">→</div>
+        <div class="step"><h3>Véhicules</h3><span>dataclass et index</span></div><div class="arrow">→</div>
+        <div class="step"><h3>NumPy</h3><span>matrice et analyses</span></div><div class="arrow">→</div>
+        <div class="step"><h3>Exports</h3><span>CSV lisible + JSON</span></div>
+      </div>
+      <p><code>texte</code> · <code>structures</code> · <code>moteur_boucles</code> · <code>moteur_numpy</code> · <code>analyse</code> · <code>chargement</code></p>
+      <details><summary>Notes orateur · 1 min 15</summary><p>Les responsabilités sont séparées : le texte décode les valeurs, les structures représentent les véhicules, le chargement gère les fichiers et les erreurs, et l’analyse reçoit un moteur interchangeable. La conversion ZIP s’appuie sur zipfile et TextIOWrapper : aucune extraction temporaire n’est nécessaire.</p></details>
+    </section>
+
+    <section class="slide" data-minutes="1.5">
+      <div class="eyebrow">03 · Qualité des données</div>
+      <h2>Manquant ne veut pas dire invalide</h2>
+      <div class="grid">
+        <div class="card"><div class="metric">205</div><div class="label">lignes valides dans le fichier UCI</div></div>
+        <div class="card"><div class="metric">0</div><div class="label">rejet sur le fichier officiel</div></div>
+        <div class="card"><div class="metric orange">6</div><div class="label">rejets dans l’échantillon volontairement corrompu</div></div>
+      </div>
+      <ul>
+        <li><code>?</code> est conservé comme absence, puis compté par colonne.</li>
+        <li>Une ligne invalide est journalisée et ignorée ; les suivantes sont tout de même lues.</li>
+        <li>Le test corrompu couvre un doublon, deux codes invalides, un prix non numérique, une ligne incomplète et un prix négatif.</li>
+      </ul>
+      <details><summary>Notes orateur · 1 min 30</summary><p>Une validation explicite évite qu’une erreur isolée fasse échouer toute l’analyse. Les 6 lignes rejetées sont prévues par la consigne ; les 2 autres restent exploitables. Le codebook sert de référentiel fermé pour les catégories, tandis que le prix est contrôlé comme nombre fini et non négatif.</p></details>
+    </section>
+
+    <section class="slide" data-minutes="1.5">
+      <div class="eyebrow">04 · Phase 2 · Synthèse</div>
+      <h2>Les données sont structurées avant d’être interprétées</h2>
+      <div class="grid">
+        <div class="card"><div class="metric">185 / 20</div><div class="label">essence / diesel</div></div>
+        <div class="card"><div class="metric">201</div><div class="label">prix renseignés</div></div>
+        <div class="card"><div class="metric">13 207 $</div><div class="label">prix moyen des valeurs connues</div></div>
+      </div>
+      <div class="bars">
+        <div>Traction <div class="bar"><span style="width:47%"></span></div></div><strong>9 245 $ · 118</strong>
+        <div>Quatre roues <div class="bar"><span style="width:52%"></span></div></div><strong>10 241 $ · 8</strong>
+        <div>Propulsion <div class="bar"><span style="width:100%"></span></div></div><strong>19 758 $ · 75</strong>
+      </div>
+      <details><summary>Notes orateur · 1 min 30</summary><p>La matrice X a la forme 205 × 17. Elle contient des NaN plutôt que des zéros ; y contient le prix. Les moyennes par transmission utilisent uniquement les prix connus. Le résultat plus élevé des propulsions est descriptif : il peut refléter les marques et segments présents, pas un effet causal de la transmission.</p></details>
+    </section>
+
+    <section class="slide" data-minutes="2">
+      <div class="eyebrow">05 · Phase 3 · Deux moteurs</div>
+      <h2>Même calcul, deux implémentations</h2>
+      <div class="grid">
+        <div class="card"><h3>Python en boucles</h3><div class="metric">≈ 0,52 s</div><div class="label">référence, 100 000 lignes</div></div>
+        <div class="card"><h3>NumPy vectorisé</h3><div class="metric">≈ 0,009 s</div><div class="label">même résultat, autre stratégie</div></div>
+        <div class="card"><h3>Accélération mesurée</h3><div class="metric orange">≈ 59×</div><div class="label">mesure indicative sur cette machine</div></div>
+      </div>
+      <div class="quote">Les deux moteurs trouvent <strong>r = +0,894</strong> pour le poids à vide et le prix.</div>
+      <p>Les deux modules exposent la même interface ; les tests vérifient leur équivalence numérique.</p>
+      <details><summary>Notes orateur · 2 min</summary><p>Expliquer que la version boucles sert de référence lisible. NumPy réalise les centrages et produits sur des tableaux entiers : le gain vient de l’exécution vectorisée, pas d’une différence de formule. La mesure timeit varie selon le matériel et la charge ; seul l’ordre de grandeur est pertinent. Les calculs comparent 17 corrélations.</p></details>
+    </section>
+
+    <section class="slide" data-minutes="2">
+      <div class="eyebrow">06 · Variables liées au prix</div>
+      <h2>La taille et la puissance dominent les associations</h2>
+      <div class="bars">
+        <div>Poids à vide <div class="bar"><span style="width:89.4%"></span></div></div><strong>+0,894</strong>
+        <div>Largeur <div class="bar"><span style="width:84.3%"></span></div></div><strong>+0,843</strong>
+        <div>Cylindrée <div class="bar"><span style="width:84.1%"></span></div></div><strong>+0,841</strong>
+        <div>Longueur <div class="bar"><span style="width:76.1%"></span></div></div><strong>+0,761</strong>
+        <div>Puissance <div class="bar"><span style="width:76%"></span></div></div><strong>+0,760</strong>
+        <div>Empattement <div class="bar"><span style="width:73.4%"></span></div></div><strong>+0,734</strong>
+      </div>
+      <p>Corrélations de Pearson sur <strong>159 véhicules complets</strong>.</p>
+      <details><summary>Notes orateur · 2 min</summary><p>Le prix est moyenné à 11 445,7 $ sur ces 159 lignes, avec un écart-type de 5 859,3 $. La corrélation mesure une relation linéaire bivariée. Elle ne tient pas compte des autres variables, ne prouve aucune causalité et peut être influencée par quelques voitures coûteuses.</p></details>
+    </section>
+
+    <section class="slide" data-minutes="2">
+      <div class="eyebrow">07 · Lecture critique</div>
+      <h2>Une corrélation ne sépare pas les effets</h2>
+      <ul>
+        <li>Poids et cylindrée sont eux-mêmes corrélés : <strong>r = 0,889</strong>. Leurs liens au prix se recouvrent.</li>
+        <li>Une propulsion coûte en moyenne davantage dans cet échantillon, où des marques premium sont bien représentées.</li>
+        <li>La consommation en MPG est corrélée négativement au prix (<strong>r ≈ −0,720</strong>) : les voitures chères consomment souvent plus.</li>
+        <li>En L/100 km, <code>235,21 / MPG</code> inverse l’échelle : une valeur élevée signifie une moins bonne consommation, donc le signe s’inverse.</li>
+      </ul>
+      <div class="quote">Ces résultats décrivent les 205 modèles historiques ; ils ne prédisent pas le prix d’une voiture actuelle.</div>
+      <details><summary>Notes orateur · 2 min</summary><p>La redondance poids-cylindrée illustre la multicolinéarité : additionner leurs corrélations au prix reviendrait à compter deux fois une partie du même signal. La propulsion peut être un marqueur de segment ou de marque. L’inversion mpg vers litres/100 km est monotone décroissante et renverse donc le sens de l’association.</p></details>
+    </section>
+
+    <section class="slide" data-minutes="1.5">
+      <div class="eyebrow">08 · Limites et choix méthodologiques</div>
+      <h2>Rendre l’incertitude visible</h2>
+      <div class="grid">
+        <div class="card"><h3>Valeurs manquantes</h3><p>41 pertes normalisées manquantes ; 4 prix absents. Aucune valeur inventée.</p></div>
+        <div class="card"><h3>Analyse complète</h3><p>159 lignes seulement après exclusion des lignes incomplètes ; ce choix peut biaiser l’échantillon.</p></div>
+        <div class="card"><h3>Petits effectifs</h3><p>BMW et Mercedes-Benz n’ont que 8 prix connus chacune. Les moyennes par marque restent fragiles.</p></div>
+      </div>
+      <p>Le rapport conserve les comptes de manquants et le CSV convertit les unités sans écraser les données brutes.</p>
+      <details><summary>Notes orateur · 1 min 30</summary><p>Attribuer un prix moyen aux véhicules sans prix créerait une fausse observation et réduirait artificiellement la dispersion. L’exclusion est justifiée pour calculer des statistiques de prix, mais la suppression complète dans les corrélations n’est pas neutre. Il faut rapporter l’effectif analysé et éviter de généraliser aux marques très peu représentées.</p></details>
+    </section>
+
+    <section class="slide" data-minutes="1">
+      <div class="eyebrow">09 · Démonstration et conclusion</div>
+      <h2>Reproductible en quatre commandes</h2>
+      <div class="card"><p><code>python main.py phase1</code></p><p><code>python main.py phase2</code></p><p><code>python main.py phase3</code></p><p><code>python main.py phase4</code></p><p><code>python -m unittest -v</code></p></div>
+      <p>Livrables : validation, analyses comparatives, tests et exports horodatés. <strong>La taille et la motorisation sont associées au prix, sans démontrer qu’elles le causent.</strong></p>
+      <p class="eyebrow">Source : Schlimmer, J. (1985). Automobile. UCI Machine Learning Repository. DOI: 10.24432/C5B01C · CC BY 4.0.</p>
+      <details><summary>Notes orateur · 1 min</summary><p>Conclure en montrant que chaque phase est exécutable indépendamment et que les tests couvrent les deux moteurs, le ZIP, les conversions et le fichier corrompu. Citer la source selon la licence CC BY 4.0. Pour aller plus loin : régression multivariée avec validation, analyse des biais dus aux manquants et données plus récentes.</p></details>
+    </section>
+  </main>
+  <nav class="controls" aria-label="Navigation de la présentation">
+    <span id="compteur" aria-live="polite"></span>
+    <div class="buttons">
+      <button id="precedent" type="button" aria-label="Diapositive précédente">← Précédent</button>
+      <button id="suivant" type="button" aria-label="Diapositive suivante">Suivant →</button>
+    </div>
+  </nav>
+  <script>
+    (() => {
+      const slides = [...document.querySelectorAll(".slide")];
+      const compteur = document.querySelector("#compteur");
+      const barre = document.querySelector("#progress");
+      let actuelle = 0;
+
+      function afficher(index) {
+        actuelle = Math.max(0, Math.min(index, slides.length - 1));
+        slides.forEach((slide, i) => slide.classList.toggle("active", i === actuelle));
+        const ecoule = slides.slice(0, actuelle).reduce(
+          (total, slide) => total + Number(slide.dataset.minutes), 0
+        );
+        const minutes = Math.floor(ecoule);
+        const secondes = Math.round((ecoule - minutes) * 60);
+        compteur.textContent =
+          `${String(actuelle + 1).padStart(2, "0")} / ${slides.length} · ` +
+          `${minutes}:${String(secondes).padStart(2, "0")} écoulées sur 15:00`;
+        barre.style.width = `${((actuelle + 1) / slides.length) * 100}%`;
+      }
+
+      document.querySelector("#precedent").addEventListener("click", () => afficher(actuelle - 1));
+      document.querySelector("#suivant").addEventListener("click", () => afficher(actuelle + 1));
+      document.addEventListener("keydown", event => {
+        if (event.key === "ArrowRight" || event.key === "PageDown") afficher(actuelle + 1);
+        if (event.key === "ArrowLeft" || event.key === "PageUp") afficher(actuelle - 1);
+      });
+      afficher(0);
+    })();
+  </script>
+</body>
+</html>
